@@ -26,10 +26,5 @@ for (; ; )
                          body: body);
     Console.WriteLine("[x] Enviado {0}", message);
 
-    System.Threading.Thread.Sleep(1000);
+    Thread.Sleep(1000);
 }
-
-Console.WriteLine("Pressione [enter] para sair.");
-Console.ReadLine();
-
-
